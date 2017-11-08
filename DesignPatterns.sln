@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonPattern", "DesignPatterns.SingletonPattern\DesignPatterns.SingletonPattern.csproj", "{C5F9B17E-7EE4-45FF-80F2-F74B2E782D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ObserverPattern", "DesignPatterns.ObserverPattern\DesignPatterns.ObserverPattern.csproj", "{D94A33F2-2F62-446E-A5EE-290224919B8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{C5F9B17E-7EE4-45FF-80F2-F74B2E782D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F9B17E-7EE4-45FF-80F2-F74B2E782D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5F9B17E-7EE4-45FF-80F2-F74B2E782D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94A33F2-2F62-446E-A5EE-290224919B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94A33F2-2F62-446E-A5EE-290224919B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94A33F2-2F62-446E-A5EE-290224919B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94A33F2-2F62-446E-A5EE-290224919B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C571F73A-F041-4B06-A335-D1B84E94E3D5}
 	EndGlobalSection
 EndGlobal
